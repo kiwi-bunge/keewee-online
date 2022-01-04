@@ -1,0 +1,20 @@
+/******************/
+/*** STYLESHEET ***/
+/******************/
+
+/************/
+/*** MAIN ***/
+
+body {
+    margin: 0;
+}
+
+/**************/
+/*** HEADER ***/
+
+#header-background {
+    background-image: url(../public/main-background.jpg);
+
+    
+
+}
