@@ -2,8 +2,10 @@
 /*** STYLESHEET ***/
 /******************/
 
-/************/
-/*** MAIN ***/
+html {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -13,9 +15,9 @@ body {
 /*** HEADER ***/
 
 header {
-    background-image: url(../public/main-background.jpg);
+    background-image: url(../public/header-background.jpg);
     width: 100%;
-    height: 1169px;
+    height: 1000px;
 
     nav {
         justify-content: center;
@@ -50,19 +52,108 @@ header {
         padding: 0;
         margin: auto; 
         justify-content: center;
-        margin-top: 700px;       
-
+        margin-top: 700px;
+               
         img {
             width: 100px;
             height: 100px;
         }
-
     }
 }
 
 /************/
 /*** MAIN ***/
 
+/****************/
+/*** SERVICES ***/
+
 #services-section {
     height: 1000px;
+    margin-top: 25px;
+
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 200px 0px 200px;
+        
+        h4 {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 25px;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .services {
+            width: 500px;
+        }
+
+        .row1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-bottom: 25px;
+        }
+
+        .row2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    }
+
+    button {
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        margin: auto; 
+        justify-content: center;
+        margin-top: 40px;
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+
+/**************/
+/*** VALUES ***/
+
+#values-section {
+    height: 950px;
+    margin-top: 25px;
+    background-image: url(../public/values-background.jpg);
+    background-size: contain;
+
+    .values-container {
+        display: flex;
+        flex-direction: row;
+        margin: 0px 100px 0px 100px;
+        
+        h4 {
+            font-size: 70px;
+            text-align: center;
+            color: white;
+        }
+
+        p {
+            font-size: 30px;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+            color: white;
+        }
+
+        .values {
+            width: 500px;
+            margin-top: 150px;
+        }
+    }
 }
