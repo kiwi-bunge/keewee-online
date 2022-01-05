@@ -1,0 +1,60 @@
+/****************/
+/*** SERVICES ***/
+
+#services-section {
+    height: 1000px;
+    margin-top: 25px;
+
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 200px 0px 200px;
+        
+        h4 {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 25px;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .services {
+            width: 500px;
+        }
+
+        .row1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-bottom: 25px;
+        }
+
+        .row2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    }
+
+    button {
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        margin: auto; 
+        justify-content: center;
+        margin-top: 40px;
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+
+/****************/

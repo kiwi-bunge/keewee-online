@@ -1,0 +1,37 @@
+/**************/
+/*** VALUES ***/
+
+#values-section {
+    height: 950px;
+    margin-top: 25px;
+    background-image: url(../public/values-background.jpg);
+    background-size: 100%;
+
+    .values-container {
+        display: flex;
+        flex-direction: row;
+        margin: 0px 100px 0px 100px;
+        justify-content: center;
+        
+        h4 {
+            font-size: 70px;
+            text-align: center;
+            color: white;
+        }
+
+        p {
+            font-size: 30px;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+            color: white;
+        }
+
+        .values {
+            width: 500px;
+            margin-top: 150px;
+        }
+    }
+}
+
+/**************/
