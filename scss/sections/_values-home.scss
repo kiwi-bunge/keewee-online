@@ -32,6 +32,22 @@
             margin-top: 150px;
         }
     }
+
+    button {
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        margin: auto; 
+        justify-content: center;
+        margin-top: 150px;
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
 }
 
 /**************/
