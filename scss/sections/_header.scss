@@ -32,6 +32,12 @@ header {
         }
     }
 
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+    }
+
     button {
         display: flex;
         flex-direction: row;
@@ -40,7 +46,7 @@ header {
         padding: 0;
         margin: auto; 
         justify-content: center;
-        margin-top: 700px;
+        margin-top: 200px;
                
         img {
             width: 100px;
