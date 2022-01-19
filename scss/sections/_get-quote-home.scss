@@ -9,6 +9,11 @@
         flex-direction: row;
         margin: 0;
         justify-content: space-evenly;
+
+        h3 {
+            font-size: 50px;
+            margin: 0;
+        }
         
         h4 {
             font-size: 40px;
@@ -21,6 +26,7 @@
             padding: 30px;
             border: none;
             border-radius: 50%;
+            color: white;
 
             a {
                 color: white;

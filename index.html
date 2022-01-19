@@ -37,18 +37,20 @@
 
     <body>
 
-        <header>
+        <header id="header_bookmark">
             <nav>
                 <ul class="navbar">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Quote</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li href="index.html"><a href="index.html"><img src="public/Logotipo 10.png" alt="logotipo"></a></li>
+                    <li><a href="" class="navbar_links">Home</a></li>
+                    <li><a href="" class="navbar_links">Projects</a></li>
+                    <li><a href="" class="navbar_links">Services</a></li>
+                    <li><a href="" class="navbar_links">Quote</a></li>
+                    <li><a href="" class="navbar_links">Contact</a></li>
                 </ul>
             </nav>
-            <div class="logo-container">
-                <img src="/public/Untitled.png" alt="">
-
+            <div class="welcome_title">
+                <h1>Web development made easy</h1>
+                <h2>Let's build your new website experience</h2>
             </div>
             <button>
                 <a href="#services-section"><img src="public/scrolldown-button.png" alt="scrolldown-button"></a>
@@ -108,7 +110,8 @@
             <section id="get-quote-section">
                 <div class="get-quote-container">
                     <div class="quote-text">
-                        <h4>Tell us what you need</h4>
+                        <h3>It's simple...</h3>
+                        <h4>Just tell us what you need</h4>
                         <button><a href="">Get a quote</a></button>
                     </div>
                     <div class="quote-banner">
@@ -121,16 +124,22 @@
         <footer>
             <div class="footer-container">
                 <div class="row1">
-                    <h4>Get all the updates</h4>
-                    <form action=""><b>john.doe@youremail.com...</b></form>
+                    <h4>Join our mailing list ></h4>
+                    <div>
+                        <input type="email" name="john.doe@youremail.com..." id="" placeholder="Email address">
+                        <button type="submit">Sign up</button>
+                    </div>
                 </div>
                 <div class="row2">
                     <ul class="website-links">
-                        <li><a href="">Home</a></li>
+                        <li><a href="#header_bookmark">Home</a></li>
                         <li><a href="">Services</a></li>
                         <li><a href="">Quote</a></li>
                         <li><a href="">Contact</a></li>
                     </ul>
+                    <a href="#header_bookmark"><img src="public/Square 10.png" alt=""></a>      
+                </div>
+                <div class="row3">
                     <ul class="social-icons">
                         <li><a href=""><img src="/public/instagram-icon.png" alt=""></a></li>
                         <li><a href=""><img src="/public/instagram-icon.png" alt=""></a></li>
