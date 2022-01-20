@@ -3,9 +3,9 @@
 
 #values-section {
     height: 950px;
-    margin-top: 25px;
     background-image: url(../public/values-background.jpg);
     background-size: 100%;
+    background-color: #DCECFF;
 
     .values-container {
         display: flex;
@@ -16,7 +16,7 @@
         h4 {
             font-size: 70px;
             text-align: center;
-            color: white;
+            color: #DCECFF;
         }
 
         p {
@@ -24,7 +24,7 @@
             text-align: center;
             margin-left: 50px;
             margin-right: 50px;
-            color: white;
+            color: #DCECFF;
         }
 
         .values {

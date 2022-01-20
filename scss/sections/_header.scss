@@ -31,12 +31,12 @@ header {
                 .navbar_links {
                     text-decoration: none;
                     font-size: 25px;
-                    color: white;
+                    color: #DCECFF;
                     
                 }
                 
                 .navbar_links:hover {
-                    border-bottom: solid purple;
+                    border-bottom: solid #A32A8D;
                     border-width: 5px;
                     transition: 0.15s;
                 }
@@ -47,7 +47,7 @@ header {
 
     .welcome_title {
         display: flex;
-        color: white;
+        color: #DCECFF;
         flex-direction: column;
         justify-content: center;
         margin: 100px 200px 200px 200px;
@@ -63,8 +63,8 @@ header {
         }
         
         @keyframes welcome_title {
-            from {color: purple;}
-            to {color: white;}
+            from {color: #A32A8D;}
+            to {color: #DCECFF;}
             from {font-size: 40px;}
             to {font-size: 60px;}
         }
@@ -79,8 +79,8 @@ header {
         }
 
         @keyframes welcome_sub_title {
-            from {color: purple;}
-            to {color: white;}
+            from {color: #A32A8D;}
+            to {color: #DCECFF;}
             from {font-size: 20px;}
             to {font-size: 40px;}
         }

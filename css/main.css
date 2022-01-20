@@ -35,14 +35,14 @@ header {
         header nav ul li .navbar_links {
           text-decoration: none;
           font-size: 25px;
-          color: white; }
+          color: #DCECFF; }
         header nav ul li .navbar_links:hover {
-          border-bottom: solid purple;
+          border-bottom: solid #A32A8D;
           border-width: 5px;
           transition: 0.15s; }
   header .welcome_title {
     display: flex;
-    color: white;
+    color: #DCECFF;
     flex-direction: column;
     justify-content: center;
     margin: 100px 200px 200px 200px; }
@@ -56,9 +56,9 @@ header {
 
 @keyframes welcome_title {
   from {
-    color: purple; }
+    color: #A32A8D; }
   to {
-    color: white; }
+    color: #DCECFF; }
   from {
     font-size: 40px; }
   to {
@@ -73,9 +73,9 @@ header {
 
 @keyframes welcome_sub_title {
   from {
-    color: purple; }
+    color: #A32A8D; }
   to {
-    color: white; }
+    color: #DCECFF; }
   from {
     font-size: 20px; }
   to {
@@ -98,7 +98,7 @@ header {
 /*** SERVICES ***/
 #services-section {
   height: 1000px;
-  margin-top: 25px; }
+  background-color: #DCECFF; }
   #services-section .services-container {
     display: flex;
     flex-direction: column;
@@ -140,9 +140,9 @@ header {
 /*** VALUES ***/
 #values-section {
   height: 950px;
-  margin-top: 25px;
   background-image: url(../public/values-background.jpg);
-  background-size: 100%; }
+  background-size: 100%;
+  background-color: #DCECFF; }
   #values-section .values-container {
     display: flex;
     flex-direction: row;
@@ -151,13 +151,13 @@ header {
     #values-section .values-container h4 {
       font-size: 70px;
       text-align: center;
-      color: white; }
+      color: #DCECFF; }
     #values-section .values-container p {
       font-size: 30px;
       text-align: center;
       margin-left: 50px;
       margin-right: 50px;
-      color: white; }
+      color: #DCECFF; }
     #values-section .values-container .values {
       width: 500px;
       margin-top: 150px; }
@@ -178,7 +178,8 @@ header {
 /*******************/
 /*** GET A QUOTE ***/
 #get-quote-section {
-  height: 850px; }
+  height: 850px;
+  background-color: #DCECFF; }
   #get-quote-section .get-quote-container {
     display: flex;
     flex-direction: row;
@@ -192,13 +193,13 @@ header {
     #get-quote-section .get-quote-container button {
       font-size: 25px;
       text-align: center;
-      background-color: purple;
+      background-color: #A32A8D;
       padding: 30px;
       border: none;
       border-radius: 50%;
-      color: white; }
+      color: #DCECFF; }
       #get-quote-section .get-quote-container button a {
-        color: white;
+        color: #DCECFF;
         text-decoration: none; }
     #get-quote-section .get-quote-container .quote-text {
       display: flex;
@@ -225,18 +226,18 @@ header {
     align-items: center;
     padding: 20px; }
     .footer-container .row1 h4 {
-      color: white;
+      color: #DCECFF;
       font-size: 30px; }
     .footer-container .row1 input {
-      background-color: white;
-      color: purple;
+      background-color: #DCECFF;
+      color: #A32A8D;
       width: 400px;
       text-align: left;
       align-self: center;
       padding: 10px; }
     .footer-container .row1 button {
-      background-color: purple;
-      color: white;
+      background-color: #A32A8D;
+      color: #DCECFF;
       width: 100px;
       height: 40px;
       border: 1; }
